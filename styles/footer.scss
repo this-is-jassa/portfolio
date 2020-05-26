@@ -1,0 +1,46 @@
+footer {
+    
+    #tagline {
+    
+        width: 95%;
+        margin: 0 auto;
+        
+        background-color: #141b3a;
+        text-align: center;
+        color: white;
+        border-radius: 12px;
+        box-shadow: hsla(0, 0%, 0%, 0.2) 0px 5px 5px 0px;
+        font-weight: 300;
+        line-height: 20px;
+        
+        padding: 56px 20px;
+        font-family: "Karla", sans-serif;
+    
+        #discription {
+            letter-spacing: 0.8px;
+            font-size: 15px;
+        }
+    
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+    
+        a {
+            color: white;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            border-radius: 290486px;
+            font-size: 20px;
+            padding: 15px 45px;
+            border: 2px solid #7533f7;
+            cursor: pointer;
+    
+            &:hover {
+                background-color: #7533f7;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+footer #tagline {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #141b3a;
+  text-align: center;
+  color: white;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 0px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 56px 20px;
+  font-family: "Karla", sans-serif;
+}
+
+footer #tagline #discription {
+  letter-spacing: 0.8px;
+  font-size: 15px;
+}
+
+footer #tagline h1 {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+footer #tagline a {
+  color: white;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 290486px;
+  font-size: 20px;
+  padding: 15px 45px;
+  border: 2px solid #7533f7;
+  cursor: pointer;
+}
+
+footer #tagline a:hover {
+  background-color: #7533f7;
+}
+/*# sourceMappingURL=footer.css.map */

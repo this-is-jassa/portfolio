@@ -1,0 +1,332 @@
+#about {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 40px;
+}
+
+#about .ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#about h1 {
+  font-size: 55px;
+  font-weight: bold;
+  padding: 40px 0 80px 10px;
+}
+
+#about h1 #styleBefore {
+  position: relative;
+}
+
+#about h1 #styleBefore::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background-color: #dddddd;
+  left: 0;
+  bottom: 5px;
+  border-radius: 20px;
+}
+
+#about h1 #word {
+  color: #ff2500;
+}
+
+#about #myInfo {
+  margin-top: 20px;
+}
+
+#about #myInfo #textInfo {
+  font-family: "Karla", sans-serif;
+}
+
+#about #myInfo #textInfo h3 {
+  font-weight: 400;
+}
+
+#about #myInfo #textInfo p {
+  color: #888888;
+  letter-spacing: 0.5px;
+}
+
+#about #myInfo #textInfo .ul {
+  color: #888888;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+#about #myInfo #textInfo h4 {
+  padding: 20px 0;
+}
+
+#about #myInfo #textInfo .activate {
+  display: table;
+  background: black;
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  line-height: 20px;
+  padding: 12px;
+  border-radius: 22px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.3s ease;
+  transition: background 0.3s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.3s ease;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.3s ease;
+}
+
+#about #myInfo #textInfo .activate span {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 4px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#about #myInfo #textInfo .activate span:before {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: black;
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: background 0.3s ease, -webkit-transform 0.3s ease;
+  transition: background 0.3s ease, -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease, background 0.3s ease;
+  transition: transform 0.3s ease, background 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+#about #myInfo #textInfo .activate span svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 50%;
+  top: 50%;
+  margin: -6px 0 0 -6px;
+  z-index: 1;
+}
+
+#about #myInfo #textInfo .activate span svg:nth-child(1) {
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  fill: none;
+  margin: 0;
+  stroke: #fff;
+  stroke-width: 1px;
+  stroke-dashoffset: 94.248;
+  stroke-dasharray: 47.124;
+}
+
+#about #myInfo #textInfo .activate span svg:nth-child(2) {
+  fill: black;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#about #myInfo #textInfo .activate span svg:nth-child(3) {
+  fill: black;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.3s ease, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#about #myInfo #textInfo .activate:hover {
+  -webkit-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+#about #myInfo #textInfo .activate:hover span svg:nth-child(2) {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+#about #myInfo #textInfo .activate:hover span svg:nth-child(3) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#about #myInfo #textInfo .activate:active {
+  -webkit-transform: scale(0.94);
+          transform: scale(0.94);
+  -webkit-box-shadow: 0 4px 16px rgba(63, 220, 117, 0.18);
+          box-shadow: 0 4px 16px rgba(63, 220, 117, 0.18);
+}
+
+#about #myInfo #textInfo .activate.loading span {
+  background: none;
+  -webkit-transition: background 0.1s ease 0.3s;
+  transition: background 0.1s ease 0.3s;
+}
+
+#about #myInfo #textInfo .activate.loading span:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#about #myInfo #textInfo .activate.loading span svg:nth-child(1) {
+  -webkit-animation: turn 1.6s linear infinite forwards, path 1.6s linear infinite forwards;
+          animation: turn 1.6s linear infinite forwards, path 1.6s linear infinite forwards;
+}
+
+#about #myInfo #textInfo .activate.loading span svg:nth-child(2) {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+#about #myInfo #textInfo .activate.loading span svg:nth-child(3) {
+  opacity: 0;
+  -webkit-transform: translateY(0) scale(0.6);
+          transform: translateY(0) scale(0.6);
+}
+
+#about #myInfo #textInfo .activate.loading ul {
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+}
+
+#about #myInfo #textInfo .activate.loading.done {
+  background: #3fdc75;
+  -webkit-box-shadow: 0 4px 20px rgba(63, 220, 117, 0.15);
+          box-shadow: 0 4px 20px rgba(63, 220, 117, 0.15);
+}
+
+#about #myInfo #textInfo .activate.loading.done span {
+  background: #fff;
+  -webkit-transition: background 0.1s ease 0s;
+  transition: background 0.1s ease 0s;
+}
+
+#about #myInfo #textInfo .activate.loading.done span:before {
+  background: #3fdc75;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#about #myInfo #textInfo .activate.loading.done span svg:nth-child(1) {
+  -webkit-animation: none;
+          animation: none;
+}
+
+#about #myInfo #textInfo .activate.loading.done span svg:nth-child(3) {
+  fill: #3fdc75;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: opacity 0.4s ease 0.25s, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+  transition: opacity 0.4s ease 0.25s, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s, opacity 0.4s ease 0.25s;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s, opacity 0.4s ease 0.25s, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+}
+
+#about #myInfo #textInfo .activate.loading.done ul {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+#about #myInfo #textInfo .activate ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 20px;
+  width: 70px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+#about #myInfo #textInfo .activate ul li {
+  --rotateX: 0deg;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotateX(var(--rotateX)) translateZ(10px);
+          transform: rotateX(var(--rotateX)) translateZ(10px);
+}
+
+#about #myInfo #textInfo .activate ul li:nth-child(2) {
+  --rotateX: -90deg;
+}
+
+#about #myInfo #textInfo .activate ul li:nth-child(3) {
+  --rotateX: -180deg;
+}
+
+@-webkit-keyframes turn {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes turn {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes path {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes path {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#about #myInfo #profileImg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.testing {
+  background-color: black;
+  -webkit-clip-path: circle(10% at 0% 0%);
+          clip-path: circle(10% at 0% 0%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+}
+
+.testing:hover {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+}
+/*# sourceMappingURL=about.css.map */
