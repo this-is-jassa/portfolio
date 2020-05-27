@@ -1,13 +1,5 @@
-#myprojects {
-  padding: 20px 0;
-}
-
-#myprojects nav {
-  color: black;
-}
-
-#myprojects h1 {
-  text-align: center;
-  padding: 80px 0;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+#projectss {
+  background-color: #750FF7;
 }
 /*# sourceMappingURL=projects.css.map */
