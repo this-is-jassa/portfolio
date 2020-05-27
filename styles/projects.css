@@ -57,12 +57,13 @@
   margin: 20px;
   letter-spacing: 1px;
   border: 2px solid #5654c8;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #5654c8;
 }
 
 #projectss .access-link a:hover {
-  background-color: #5654c8;
+  background-color: black;
 }
 
 @media only screen and (max-width: 600px) {
