@@ -12,7 +12,7 @@
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/about.css">
@@ -41,10 +41,10 @@
 
     <nav style="background-color: white;  padding-bottom: 0;" class="navbar navbar-expand-lg navbar-light fixed-top">
 
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="">
             <div class="avatar"></div>
         </a>
-        <a href="#" class="badge badge-dark" style="letter-spacing: 1px;">- Jashan -</a>
+        <a href="" class="badge badge-dark" style="letter-spacing: 1px;">- Jashan -</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -317,12 +317,11 @@
 
                 <hr>
 
-
             </div>
 
 
             <div class="col-md-6 col-sm-12">
-                <img id="profileImg" src="assets/images/profile2.png" alt="..." style="overflow: hidden;" data-tilt>
+                <img id="profileImg" class="img-fluid" src="assets/images/profile2.png" alt="..." style="overflow: hidden;" data-tilt>
             </div>
 
 
@@ -512,7 +511,7 @@
         <ul class="nav nav-pills nav-justified container " id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-                    aria-controls="pills-home" aria-selected="true">Web-Apps</a>
+                    aria-controls="pills-home" aria-selected="true">Web Apps</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
@@ -523,19 +522,63 @@
                     aria-controls="pills-contact" aria-selected="false">Python</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">Hardware</a>
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-hardware" role="tab"
+                    aria-controls="pills-hardware" aria-selected="false">Hardware</a>
             </li>
         </ul>
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">.j..
+        <div class="tab-content container" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row" style="margin-top: 50px; overflow: hidden;">
+                    <div class="col-12" style="position: relative; top: 0; overflow: hidden;">
+                        <video autoplay muted loop class="bgvideo">
+                            <source src="/assets/videos/teams.mp4" type="video/mp4">
+                        </video>
+                        <div
+                            style="position: absolute; top: 10px; color: white; font-family: 'Nunito', sans-serif; text-align: center; width: 100%; height: 100%;">
+                            <h1 id="header">Teams MS.</h1>
+                            <!-- <hr style="background-color: white; height: 3px; width: 40px; border-radius: 20px;"> -->
+                            <!-- <p style="font-size: 1.2vw; font-family: 'Karla'; color: rgb(238, 238, 238); letter-spacing: 0.7px; margin-top: ; ">Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p> -->
+                        </div>
+                        <div class="access-link">
+                            <a href="#teamsms-popup">What is Teams MS ?</a>
+                        </div>
+
+                    </div>
+                    <div class="col-6">Hello</div>
+                    <div class="col-6">Hello</div>
+                </div>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">.kn..
+
             </div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+            <div class="tab-pane fade" id="pills-hardware" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
         </div>
     </section>
 
+
+
+    <div class="popup" id="teamsms-popup">
+        <div class="popup-inner">
+            <div class="container " >
+                <h1 class="py-3">Teams MS</h1>
+                
+                <p class="mt-5">
+                    Teams MS is a team management tool that makes project building process much more smoother,
+                    with built in features like <span>directory hoasting</span>, <span>productivity monitoring</span> and <span>task management</span> and much more on personal and project level.
+                    It is powered with access control that helps team owner have some certian permissions that an Admin and a developer (Roles) doesn't,
+                    Where an Owner can also promote there members to grant access to some aditional permissions in a project.
+                    
+                </p>
+
+                <div class="mt-5 pt-5" style="text-align: center;">
+                    <a id="a" href="#">Visit Website</a>
+                </div>
+            </div>
+            <a class="popup__close" href="#o">X</a>
+           
+        </div>
+    </div>
 
 
     <footer id="contactt">

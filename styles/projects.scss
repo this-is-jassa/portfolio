@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 #projectss {
-
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     padding: 80px 0 30px 0;
-    .nav{
-        .nav-link{
+
+    .bgvideo {
+        width: 100%;
+        margin: 0;
+        border-radius: 100px;
+    }
+
+    .nav {
+        .nav-link {
             color: black;
             font-weight: 400;
             font-size: 13px;
@@ -12,6 +18,161 @@
         }
         .active {
             color: white;
+        }
+    }
+
+    #header {
+        font-size: 8vw;
+        font-family: "Karla", sans-serif;
+        letter-spacing: 2px;
+        margin-top: 30px;
+
+        @media only screen and (max-width: 600px) {
+            margin-top: 10px;
+        }
+
+        &::before {
+            content: "";
+            height: 5px;
+            width: 50%;
+            background-color: white;
+        }
+    }
+
+    .access-link {
+        position: absolute;
+        bottom: 45px;
+        width: 100%;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            font-size: 17px;
+            padding: 10px 25px;
+            border-radius: 30px;
+            color: white;
+            margin: 20px;
+            letter-spacing: 1px;
+            border: 2px solid #5654c8;
+            transition: 0.2s;
+
+            &:hover {
+                background-color: #5654c8;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            bottom: 25px;
+            a {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+#teamsms-popup {
+    color: white;
+    
+    .container {
+        padding: 50px;
+    }
+
+    p {
+        font-size: 17px;
+        // font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-family: "Karla";
+        color: rgb(202, 202, 202);
+
+        span {
+            color: rgb(137, 165, 137);
+        }
+    }
+
+    #a {
+        text-decoration: none;
+        font-size: 17px;
+        padding: 10px 25px;
+        border-radius: 30px;
+        color: white;
+        margin: 20px;
+        letter-spacing: 1px;
+        border: 2px solid #5654c8;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: #5654c8;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .container {
+            padding: 20px;
+        }
+        #a {
+            font-size: 10px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+.popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hiden;
+    transition: 0.64s ease-in-out;
+
+    &-inner {
+        position: relative;
+
+        top: 50px;
+        display: flex;
+        // align-items: center;
+        max-width: 800px;
+        max-height: 600px;
+        width: 60%;
+        height: 80%;
+        background-color: rgb(19, 17, 17);
+        transform: rotate(32deg);
+        transition: 0.64s ease-in-out;
+
+        .popup__close {
+            position: absolute;
+            right: -1rem;
+            top: -1rem;
+            width: 3rem;
+            height: 3rem;
+            font-size: 0.875rem;
+            font-weight: 300;
+            border-radius: 100%;
+            background-color: #5654c8;
+            z-index: 4;
+            color: #fff;
+            line-height: 3rem;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+        .popup-inner {
+            bottom: 0;
+            right: 0;
+            transform: rotate(0);
         }
     }
 }
