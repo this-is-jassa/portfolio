@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 #projectss {
-  background-color: #750FF7;
+  font-family: 'Raleway', sans-serif;
+  padding: 80px 0 30px 0;
+}
+
+#projectss .nav .nav-link {
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+#projectss .nav .active {
+  color: white;
 }
 /*# sourceMappingURL=projects.css.map */
