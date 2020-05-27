@@ -34,7 +34,23 @@ body {
     border: 3px solid red;
 }
 
+.navbar {
+    .active {
+        position: relative;
+        text-align: center;
 
+        &::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            animation: navbaractivated 0.5s;
+            width: 100%;
+            background-color: #e14761;
+            border-radius: 2px;
+            bottom: 0;
+        }
+    }
+}
 
 .media-icons {
     $color-github: #000;
@@ -141,7 +157,6 @@ body {
     }
 }
 
-
 header {
     padding: 150px 0 20px 0;
     background-color: white;
@@ -176,7 +191,6 @@ header {
     font-weight: bold;
     color: white;
 }
-
 
 #work {
     color: black;
@@ -480,27 +494,34 @@ header {
         h1 {
             font-size: 55px;
             font-weight: bold;
-            
+
             #bef {
                 position: relative;
-                
+
                 &::before {
                     content: "";
                     position: absolute;
                     width: 60%;
                     height: 8px;
-                    background-color: #DDDDDD;
+                    background-color: #dddddd;
                     left: 0;
                     bottom: 5px;
                     border-radius: 20px;
                 }
             }
-
         }
-
     }
 
     div {
         padding: 5px;
+    }
+}
+
+@keyframes navbaractivated {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
     }
 }

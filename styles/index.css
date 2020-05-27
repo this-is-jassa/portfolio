@@ -33,6 +33,23 @@ body {
   border: 3px solid red;
 }
 
+.navbar .active {
+  position: relative;
+  text-align: center;
+}
+
+.navbar .active::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  -webkit-animation: navbaractivated 0.5s;
+          animation: navbaractivated 0.5s;
+  width: 100%;
+  background-color: #e14761;
+  border-radius: 2px;
+  bottom: 0;
+}
+
 .media-icons {
   /* Social Icon Mixin */
   /* Social Icons */
@@ -543,7 +560,7 @@ header .contact .info {
   position: absolute;
   width: 60%;
   height: 8px;
-  background-color: #DDDDDD;
+  background-color: #dddddd;
   left: 0;
   bottom: 5px;
   border-radius: 20px;
@@ -551,5 +568,23 @@ header .contact .info {
 
 #techTray div {
   padding: 5px;
+}
+
+@-webkit-keyframes navbaractivated {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes navbaractivated {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
