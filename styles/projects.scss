@@ -6,19 +6,16 @@
     .bgvideo {
         width: 100%;
         margin: 0;
-        border-radius: 100px;
     }
 
-    .nav {
-        .nav-link {
-            color: black;
-            font-weight: 400;
-            font-size: 13px;
-            letter-spacing: 1px;
-        }
-        .active {
-            color: white;
-        }
+    .dark-filter {
+        position: absolute;
+        background-color: black;
+        opacity: 0.5;
+        width: 100%;
+        top: 0;
+        margin: 0;
+        padding: 0;
     }
 
     #header {
@@ -56,7 +53,6 @@
             border: 2px solid #5654c8;
             transition: 0.4s;
             background-color: #5654c8;
-            
 
             &:hover {
                 background-color: black;
@@ -70,11 +66,24 @@
             }
         }
     }
+
+    .nav {
+        margin-bottom: 80px;
+        .nav-link {
+            color: black;
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        .active {
+            color: white;
+        }
+    }
 }
 
 #teamsms-popup {
     color: white;
-    
+
     .container {
         padding: 50px;
     }
@@ -100,7 +109,6 @@
         letter-spacing: 1px;
         border: 2px solid #5654c8;
         transition: 0.2s;
-        
 
         &:hover {
             background-color: #5654c8;

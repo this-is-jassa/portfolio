@@ -7,18 +7,16 @@
 #projectss .bgvideo {
   width: 100%;
   margin: 0;
-  border-radius: 100px;
 }
 
-#projectss .nav .nav-link {
-  color: black;
-  font-weight: 400;
-  font-size: 13px;
-  letter-spacing: 1px;
-}
-
-#projectss .nav .active {
-  color: white;
+#projectss .dark-filter {
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #projectss #header {
@@ -73,6 +71,21 @@
   #projectss .access-link a {
     font-size: 10px;
   }
+}
+
+#projectss .nav {
+  margin-bottom: 80px;
+}
+
+#projectss .nav .nav-link {
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+#projectss .nav .active {
+  color: white;
 }
 
 #teamsms-popup {
