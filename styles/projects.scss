@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 #projectss {
     font-family: "Raleway", sans-serif;
-    padding: 80px 0 30px 0;
+    padding: 10px 0 30px 0;
 
     .bgvideo {
         width: 100%;
+        // height: 100%;
         margin: 0;
+    }
+
+    #ttt {
+        background-image: url(../assets/images/tic-tac-toe-1954446_640.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        animation: animatedBackground 1.2s ease-in-out alternate infinite;
     }
 
     .dark-filter {
@@ -19,19 +28,32 @@
     }
 
     .content-card {
-        position: relative; color: white; background-color: black; height: 550px; border-radius: 5px;
+        margin-top: 50px;
+        position: relative;
+        color: white;
+        background-color: black;
+        height: 550px;
+        border-radius: 8px;
+        font-family: "Karla", sans-serif;
+        text-align: center;
+
         h1 {
-            text-align: center; font-weight: bolder; font-family: 'Karla', sans-serif; font-size: 60px;
+            font-weight: bolder;
+            font-size: 60px;
         }
         hr {
-            width: 50px; background-color: white; height: 6px; border-radius: 30px; margin-top: 50px;
+            width: 50px;
+            background-color: white;
+            height: 6px;
+            border-radius: 30px;
+            margin-top: 50px;
         }
-        p{
-            text-align: center; font-size: 20px; padding-top: 25px; 
+        p {
+            font-size: 18px;
+            padding: 25px 30px 0 30px;
+            letter-spacing: 1px;
         }
     }
-
-
 
     #header {
         font-size: 8vw;
@@ -92,6 +114,19 @@
         }
         .active {
             color: white;
+        }
+    }
+
+    @keyframes animatedBackground {
+        from {
+            background-size: cover;
+            // background-position: 50% 22%;
+            transform: scale(1.1);
+        }
+        to {
+            background-size: cover;
+            // background-position: 100% 22%;
+            transform: scale(1.2);
         }
     }
 }
