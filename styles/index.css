@@ -17,13 +17,14 @@ body {
   border: 2px solid black;
   border-radius: 13px;
   z-index: 1;
+  pointer-events: none;
 }
 
 .avatar {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-image: url("/assets/images/profile.png");
+  background-image: url("../assets/images/profile.png");
   background-position: top;
   background-size: cover;
 }

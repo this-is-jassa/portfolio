@@ -1,9 +1,10 @@
 
 const cursor = document.getElementsByClassName('cursor');
 
-// document.addEventListener('mousemove', e => {
-//     cursor[0].setAttribute("style", "top: " + (e.pageY - 10) + "px; left:" + (e.pageX - 10) + "px")
-// })
+document.addEventListener('mousemove', e => {
+    
+    cursor[0].setAttribute("style", "top: " + (e.pageY - 10) + "px; left:" + (e.pageX - 10) + "px")
+})
 
 
 window.onload = (event) => {
