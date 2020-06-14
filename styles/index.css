@@ -40,8 +40,8 @@ body {
   margin: 0;
   width: 100vw;
   z-index: 10;
-  -webkit-transform: translateZ(30px);
-          transform: translateZ(30px);
+  -webkit-transform: translateZ(101px);
+          transform: translateZ(101px);
 }
 
 .navbar .active {
