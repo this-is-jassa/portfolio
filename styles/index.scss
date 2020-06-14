@@ -52,6 +52,14 @@ body {
             bottom: 0;
         }
     }
+    @media screen and (max-width: 768px){
+        #navbarSupportedContent {
+            visibility: hidden;
+        }
+        .navbar-toggler {
+            visibility: hidden;
+        }
+    }
 }
 
 .media-icons {

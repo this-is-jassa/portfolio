@@ -1,10 +1,12 @@
 footer {
     margin-top: 50px;
+    overflow: hidden;
+
     #tagline {
-    
         width: 95%;
         margin: 0 auto;
-        
+        overflow: hidden;
+
         background-color: #141b3a;
         text-align: center;
         color: white;
@@ -12,36 +14,50 @@ footer {
         box-shadow: hsla(0, 0%, 0%, 0.2) 0px 5px 5px 0px;
         font-weight: 300;
         line-height: 20px;
-        
+
         padding: 56px 20px;
         font-family: "Karla", sans-serif;
-    
+
         #discription {
             letter-spacing: 0.8px;
             font-size: 15px;
         }
-    
+
         h1 {
             font-size: 32px;
             font-weight: 800;
             letter-spacing: 2px;
         }
-    
-        a {
-            color: white;
-            text-decoration: none;
-            justify-content: center;
-            align-items: center;
-            border-radius: 290486px;
-            font-size: 20px;
-            padding: 15px 45px;
-            border: 2px solid #7533f7;
-            cursor: pointer;
-    
-            &:hover {
-                background-color: #7533f7;
+
+        #emailme {
+            margin: auto;
+            a {
+                color: white;
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+                border-radius: 290486px;
+                font-size: 1.3em;
+                padding: 12px 41px;
+                border: 2px solid #7533f7;
+                cursor: all-scroll;
+
+                &:hover {
+                    background-color: #7533f7;
+                }
+            }
+            
+        }
+
+        @media only screen and (max-width: 600px) {
+            #emailme {
+                margin-top: 50px;
+            }
+
+            a {
+                font-size: 1em;
+                padding: 10px 25px;
             }
         }
     }
 }
-

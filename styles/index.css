@@ -52,6 +52,15 @@ body {
   bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar #navbarSupportedContent {
+    visibility: hidden;
+  }
+  .navbar .navbar-toggler {
+    visibility: hidden;
+  }
+}
+
 .media-icons {
   /* Social Icon Mixin */
   /* Social Icons */

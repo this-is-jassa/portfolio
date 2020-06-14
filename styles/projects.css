@@ -7,6 +7,13 @@
 #projectss .bgvideo {
   width: 100%;
   margin: 0;
+  border-radius: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+  #projectss .bgvideo {
+    border-radius: 10px;
+  }
 }
 
 #projectss #ttt {

@@ -1,10 +1,12 @@
 footer {
   margin-top: 50px;
+  overflow: hidden;
 }
 
 footer #tagline {
   width: 95%;
   margin: 0 auto;
+  overflow: hidden;
   background-color: #141b3a;
   text-align: center;
   color: white;
@@ -28,7 +30,11 @@ footer #tagline h1 {
   letter-spacing: 2px;
 }
 
-footer #tagline a {
+footer #tagline #emailme {
+  margin: auto;
+}
+
+footer #tagline #emailme a {
   color: white;
   text-decoration: none;
   -webkit-box-pack: center;
@@ -38,13 +44,23 @@ footer #tagline a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 290486px;
-  font-size: 20px;
-  padding: 15px 45px;
+  font-size: 1.3em;
+  padding: 12px 41px;
   border: 2px solid #7533f7;
-  cursor: pointer;
+  cursor: all-scroll;
 }
 
-footer #tagline a:hover {
+footer #tagline #emailme a:hover {
   background-color: #7533f7;
+}
+
+@media only screen and (max-width: 600px) {
+  footer #tagline #emailme {
+    margin-top: 50px;
+  }
+  footer #tagline a {
+    font-size: 1em;
+    padding: 10px 25px;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
