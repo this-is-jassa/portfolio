@@ -175,6 +175,7 @@ header {
     padding: 150px 0 20px 0;
     background-color: white;
     color: black;
+    overflow: hidden;
 
     h1 {
         font-size: 80px;
@@ -213,6 +214,8 @@ header {
     height: 100%;
     font-family: "Nunito", sans-serif;
     box-sizing: border-box;
+    overflow: hidden;
+
 
     .cd-container {
         width: 100%;

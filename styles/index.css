@@ -203,6 +203,7 @@ header {
   padding: 150px 0 20px 0;
   background-color: white;
   color: black;
+  overflow: hidden;
 }
 
 header h1 {
@@ -244,6 +245,7 @@ header .contact .info {
   font-family: "Nunito", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow: hidden;
   /* -------------------------------- 
     
     Main components 
