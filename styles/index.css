@@ -39,6 +39,7 @@ body {
   overflow: auto;
   margin: 0;
   width: 100vw;
+  z-index: 10;
 }
 
 .navbar .active {
