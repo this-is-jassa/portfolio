@@ -38,6 +38,7 @@ body {
 .navbar {
   overflow: auto;
   margin: 0;
+  width: 100vw;
 }
 
 .navbar .active {
@@ -55,6 +56,15 @@ body {
   background-color: #e14761;
   border-radius: 2px;
   bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar #navbarSupportedContent {
+    visibility: hidden;
+  }
+  .navbar .navbar-toggler {
+    visibility: hidden;
+  }
 }
 
 .media-icons {
@@ -511,10 +521,6 @@ header .contact .info {
 }
 
 @media screen and (max-width: 768px) {
-  .avatar {
-    width: 40px;
-    height: 40px;
-  }
   header {
     padding-top: 90px;
     background-color: white;
