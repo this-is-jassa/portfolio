@@ -137,26 +137,26 @@
 @-webkit-keyframes animatedBackground {
   from {
     background-size: cover;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
   to {
     background-size: cover;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
   }
 }
 
 @keyframes animatedBackground {
   from {
     background-size: cover;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
   to {
     background-size: cover;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
   }
 }
 
