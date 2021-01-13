@@ -136,7 +136,7 @@
     }
 }
 
-#teamsms-popup {
+#teamsms-popup , #theFlipkart-popup {
     color: white;
 
     .container {
@@ -154,7 +154,8 @@
         }
     }
 
-    #a {
+
+    .a {
         text-decoration: none;
         font-size: 17px;
         padding: 10px 25px;
@@ -174,7 +175,7 @@
         .container {
             padding: 20px;
         }
-        #a {
+        .a {
             font-size: 10px;
         }
         p {

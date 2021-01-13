@@ -160,25 +160,25 @@
   }
 }
 
-#teamsms-popup {
+#teamsms-popup, #theFlipkart-popup {
   color: white;
 }
 
-#teamsms-popup .container {
+#teamsms-popup .container, #theFlipkart-popup .container {
   padding: 50px;
 }
 
-#teamsms-popup p {
+#teamsms-popup p, #theFlipkart-popup p {
   font-size: 17px;
   font-family: "Karla";
   color: #cacaca;
 }
 
-#teamsms-popup p span {
+#teamsms-popup p span, #theFlipkart-popup p span {
   color: #89a589;
 }
 
-#teamsms-popup #a {
+#teamsms-popup .a, #theFlipkart-popup .a {
   text-decoration: none;
   font-size: 17px;
   padding: 10px 25px;
@@ -191,18 +191,18 @@
   transition: 0.2s;
 }
 
-#teamsms-popup #a:hover {
+#teamsms-popup .a:hover, #theFlipkart-popup .a:hover {
   background-color: #5654c8;
 }
 
 @media only screen and (max-width: 600px) {
-  #teamsms-popup .container {
+  #teamsms-popup .container, #theFlipkart-popup .container {
     padding: 20px;
   }
-  #teamsms-popup #a {
+  #teamsms-popup .a, #theFlipkart-popup .a {
     font-size: 10px;
   }
-  #teamsms-popup p {
+  #teamsms-popup p, #theFlipkart-popup p {
     font-size: 10px;
   }
 }
